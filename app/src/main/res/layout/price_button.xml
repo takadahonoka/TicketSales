@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/llPriceContent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#98fb98"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btPrice01"
+            android:onClick="onInPrice"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.3"
+            android:text="@string/bt_price_10"/>
+
+        <Button
+            android:id="@+id/btPrice02"
+            android:onClick="onInPrice"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.3"
+            android:text="@string/bt_price_50"/>
+
+        <Button
+            android:id="@+id/btPrice03"
+            android:onClick="onInPrice"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.3"
+            android:text="@string/bt_price_100"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btPrice04"
+            android:onClick="onInPrice"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.25"
+            android:text="@string/bt_price_500"/>
+
+        <Button
+            android:id="@+id/btPrice05"
+            android:onClick="onInPrice"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.25"
+            android:text="@string/bt_price_1000"/>
+
+        <Button
+            android:id="@+id/btPrice06"
+            android:onClick="onInPrice"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.25"
+            android:text="@string/bt_price_5000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btPrice07"
+            android:onClick="onInPrice"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.5"
+            android:text="@string/bt_price_10000"/>
+
+        <Button
+            android:id="@+id/btClear"
+            android:onClick="onClearPrice"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.25"
+            android:text="@string/bt_clear_price"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">切符販売機</string>
+
+    <!-- 枚数選択画面 : activity_main.xml -->
+    <string name="tv_count_label">切符の枚数をクリックしてください。</string>
+    <string name="bt_count01">1枚</string>
+    <string name="bt_count02">2枚</string>
+    <string name="bt_count03">3枚</string>
+    <string name="bt_count04">4枚</string>
+
+    <!-- 支払い方法選択画面: activity_main2.xml -->
+    <string name="bt_electron_price">電子マネー</string>
+    <!-- price_button.xml -->
+    <string name="bt_price_10">10円玉</string>
+    <string name="bt_price_50">50円玉</string>
+    <string name="bt_price_100">100円玉</string>
+    <string name="bt_price_500">500円玉</string>
+    <string name="bt_price_1000">1000円札</string>
+    <string name="bt_price_5000">5000円札</string>
+    <string name="bt_price_10000">10000円札</string>
+    <string name="bt_clear_price">C</string>
+
+    <!-- 現金投入時結果画面 : activity_main3.xml -->
+    <string name="tv_in_price">投入金額</string>
+    <string name="tv_total_price">残額</string>
+    <string name="tv_change_price">お釣り</string>
+    <string name="bt_finish">終了</string>
+    <string name="tv_price">枚</string>
+
+    <!-- 電子マネー使用時結果画面 : activity_main4.xml -->
+    <string name="tv_in_price2">利用金額</string>
+
+</resources>
